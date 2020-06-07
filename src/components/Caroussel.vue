@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="slide">
-        <iframe src="//iplayerhd.com/player/video/b1ff7b31-c97f-41eb-9be2-b3a45f7b85c4" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen  width="450" height="253"></iframe>
+        <iframe src="//iplayerhd.com/player/video/b1ff7b31-c97f-41eb-9be2-b3a45f7b85c4" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen  width="550" height="350"></iframe>
       </div>
       <div class="slide">
         <iframe src="//iplayerhd.com/player/video/645191b4-3949-4fb5-86f8-25bf64e5add3" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen  width="450" height="818"></iframe>
