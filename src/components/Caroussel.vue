@@ -2,13 +2,28 @@
   <div class="caroussel">
     <agile>
       <div class="slide">
-        <iframe width="806" height="453" src="https://www.youtube.com/embed/4vajlWofWS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="wistia-video">
+        <!-- Script tag is in index -->
+          <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+            <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+              <div class="wistia_embed wistia_async_77dep11u9c seo=false videoFoam=true" style="height:100%;position:relative;width:100%">
+                <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                  <img src="https://fast.wistia.com/embed/medias/77dep11u9c/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="slide">
-        <img src="https://source.unsplash.com/random" alt="">
+        <div class="wistia-video">
+          <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jpqafa9mg4 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/jpqafa9mg4/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+        </div>
       </div>
       <div class="slide">
-        <img src="https://source.unsplash.com/random" alt="">
+        <div class="wistia-video">
+          <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_sxvahxzyzt seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/sxvahxzyzt/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+        </div>
       </div>
       <template slot="prevButton"><i class="fas fa-chevron-left"></i></template>
       <template slot="nextButton"><i class="fas fa-chevron-right"></i></template>
@@ -30,9 +45,15 @@
 
 <style lang="scss">
   .slide {
-    img, iframe {
+    img {
       height: 60vh;
     }
+  }
+
+  .wistia-video {
+    height: 60vh;
+    width: 55vw;
+    display: inline-block;
   }
 
   .agile__nav-button {
