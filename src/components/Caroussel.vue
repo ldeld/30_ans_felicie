@@ -35,6 +35,9 @@
           <iframe src="//iplayerhd.com/player/video/645191b4-3949-4fb5-86f8-25bf64e5add3" allowtransparency="true" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
+      <div class="slide">
+        <img src="../assets/pdf_douches-1.jpg"/>
+      </div>
       <template slot="prevButton"><i class="fas fa-chevron-left"></i></template>
       <template slot="nextButton"><i class="fas fa-chevron-right"></i></template>
     </agile>
